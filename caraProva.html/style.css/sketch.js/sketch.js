@@ -21,7 +21,7 @@ function draw() {
     mov = map(micLevel, 0, 1, 10, 500)
 
     //barba
-    fill('pink');
+    fill('orange');
     rect(0, 190, boca_w + mov, 700);
 
     //fondo boca
@@ -38,7 +38,7 @@ function draw() {
     pop();
 
     //front
-    fill('pink');
+    fill('orange');
     rect(0, 0, width, height / 1.8);
 
     //ojo izquierdo
@@ -68,6 +68,7 @@ function draw() {
     stroke(255);
     strokeWeight(10);
     arc(width * 0.5, height / 1.85, 30, 30, radians(230), radians(310));
+    
 }
 
 function touchStarted() {
